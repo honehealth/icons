@@ -1,0 +1,18 @@
+<svg id="video-content" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M51.5 56.8333L39.75 64.75V48.8333L51.5 56.8333Z" fill="#FFD45A"/>
+<path d="M71.3334 69.25V62.8333" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M22.25 37.9167H28.75" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M28.75 37.9167H71.3333V62.8333" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M22.25 37.9167H15.8334V75.75H71.3334V69.25" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M77.75 62.8333V31.4167H28.75" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M22.25 37.9167V31.4167H28.75" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M77.75 62.8333V69.25H71.3334" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M77.75 62.8333H84.25V25H28.75V31.4167" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="70.0833" height="52.4167" fill="white" transform="translate(15 24.1667)"/>
+</clipPath>
+</defs>
+</svg>

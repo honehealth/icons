@@ -1,0 +1,16 @@
+<svg id="energy" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M72 46.0833C75.9167 50.9167 78.25 57 78.25 63.75" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M22.5 63.75C22.5 48.3333 35 35.8333 50.4167 35.8333C57.0833 35.8333 63.1667 38.1667 67.9167 42" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M50.4167 47.5V39" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M66.5834 63.75H75.0834" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M34.1667 63.75H25.6667" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M39.0001 52.3333L33.0001 46.3333" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M50.5001 63.5L70.8334 43.25" stroke="#FFD45A" stroke-width="1.5" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="57.4167" height="29.5833" fill="white" transform="translate(21.6667 35)"/>
+</clipPath>
+</defs>
+</svg>

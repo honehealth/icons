@@ -1,0 +1,16 @@
+<svg id="time-period" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M32.9167 40.3333C31.25 43.25 30.25 46.6667 30.25 50.3333C30.25 61.4167 39.1667 70.3333 50.25 70.3333C61.3333 70.3333 70.25 61.4167 70.25 50.3333C70.25 39.25 61.3333 30.3333 50.25 30.3333" stroke="#FFD45A" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M50.25 88C29.4167 88 12.5 71.0833 12.5 50.25C12.5 29.4167 29.4167 12.5 50.25 12.5C71.0833 12.5 88 29.4167 88 50.25C88 71.0833 71.0833 88 50.25 88Z" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M50.25 15.8333V23" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M15.8334 50.25H23" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M50.25 84.5833V77.5" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M84.5833 50.25H77.5" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M36.3333 34.3333L37.0833 42.6667L28.8333 38.0833L36.3333 34.3333Z" fill="#FFD45A"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="77.1667" height="77.1667" fill="white" transform="translate(11.6666 11.6667)"/>
+</clipPath>
+</defs>
+</svg>

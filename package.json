@@ -1,0 +1,29 @@
+{
+  "name": "@honehealth/icons",
+  "version": "1.0.0",
+  "author": "Hone Health <info@honehealth.com>",
+  "main": "lib/index.jsx",
+  "types": "types.d.ts",
+  "files": [
+    "lib/*",
+    "types.d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:honehealth/icons.git"
+  },
+  "scripts": {
+    "build": "rimraf ./lib && pnpm build:icons && pnpm build:react",
+    "build:icons": "svgo -f src/icons -o lib",
+    "build:react": "svgr --ext jsx --replace-attr-values \"#161919=currentColor\" -d lib ./src/icons",
+    "prepublish": "pnpm build"
+  },
+  "devDependencies": {
+    "@svgr/cli": "^6.3.1",
+    "rimraf": "^3.0.2",
+    "svgo": "^3.0.4"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  }
+}

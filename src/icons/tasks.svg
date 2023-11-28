@@ -1,0 +1,8 @@
+<svg id="tasks" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M35.7818 29H24V40.7818H35.7818V29Z" fill="#FFD45A"/>
+<path d="M35.7818 44.129H24V55.9108H35.7818V44.129Z" fill="#FFD45A"/>
+<path d="M34.945 60.1951H24.8368V70.3034H34.945V60.1951Z" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M41.6979 34.8909H76.1564" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M41.6979 50.0199H76.1564" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M41.6979 65.2493H76.1564" stroke="#161919" stroke-width="1.5" stroke-miterlimit="10"/>
+</svg>
