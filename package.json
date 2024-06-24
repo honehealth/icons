@@ -15,7 +15,7 @@
   "scripts": {
     "build": "rimraf ./lib && pnpm build:icons && pnpm build:react",
     "build:icons": "svgo -f src/icons -o lib",
-    "build:react": "svgr --ext jsx --replace-attr-values \"#161919=currentColor\" -d lib ./src/icons",
+    "build:react": "svgr --ext jsx --replace-attr-values \"#0E0B20=currentColor\" -d lib ./src/icons",
     "prepublish": "pnpm build"
   },
   "devDependencies": {
