@@ -2,7 +2,7 @@
   "name": "@honehealth/icons",
   "version": "2.1.0",
   "author": "Hone Health <info@honehealth.com>",
-  "main": "lib/index.jsx",
+  "main": "lib/index.js",
   "types": "types.d.ts",
   "files": [
     "lib/*",
@@ -13,7 +13,7 @@
     "url": "git@github.com:honehealth/icons.git"
   },
   "scripts": {
-    "build": "rimraf ./lib && pnpm build:icons && pnpm build:react && pnpm build:babel",
+    "build": "rimraf ./lib && rimraf ./build && pnpm build:icons && pnpm build:react && pnpm build:babel",
     "build:icons": "svgo -f src/icons -o lib",
     "build:react": "svgr --ext jsx --replace-attr-values \"#0E0B20=currentColor\" --replace-attr-values \"#161919=currentColor\" -d build ./src/icons",
     "build:babel": "babel build --out-dir lib",
