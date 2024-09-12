@@ -1,8 +1,8 @@
 {
   "name": "@honehealth/icons",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "author": "Hone Health <info@honehealth.com>",
-  "main": "lib/index.jsx",
+  "main": "lib/index.js",
   "types": "types.d.ts",
   "files": [
     "lib/*",
@@ -13,12 +13,16 @@
     "url": "git@github.com:honehealth/icons.git"
   },
   "scripts": {
-    "build": "rimraf ./lib && pnpm build:icons && pnpm build:react",
+    "build": "rimraf ./lib && rimraf ./build && pnpm build:icons && pnpm build:react && pnpm build:babel",
     "build:icons": "svgo -f src/icons -o lib",
-    "build:react": "svgr --ext jsx --replace-attr-values \"#0E0B20=currentColor\" --replace-attr-values \"#161919=currentColor\" -d lib ./src/icons",
+    "build:react": "svgr --ext jsx --replace-attr-values \"#0E0B20=currentColor\" --replace-attr-values \"#161919=currentColor\" -d build ./src/icons",
+    "build:babel": "babel build --out-dir lib",
     "prepublish": "pnpm build"
   },
   "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-react": "^7.24.7",
     "@svgr/cli": "^6.3.1",
     "rimraf": "^3.0.2",
     "svgo": "^3.0.4"
