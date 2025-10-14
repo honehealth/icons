@@ -1,6 +1,6 @@
 {
   "name": "@honehealth/icons",
-  "version": "2.1.8",
+  "version": "2.2.0",
   "author": "Hone Health <info@honehealth.com>",
   "main": "lib/index.js",
   "types": "types.d.ts",
