@@ -1,38 +1,38 @@
 {
-  "name": "@honehealth/icons",
-  "version": "2.2.1",
-  "author": "Hone Health <info@honehealth.com>",
-  "main": "lib/index.js",
-  "types": "types.d.ts",
-  "files": [
-    "lib/*",
-    "types.d.ts"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:honehealth/icons.git"
-  },
-  "packageManager": "pnpm@10.15.0+sha512.486ebc259d3e999a4e8691ce03b5cac4a71cbeca39372a9b762cb500cfdf0873e2cb16abe3d951b1ee2cf012503f027b98b6584e4df22524e0c7450d9ec7aa7b",
-  "engines": {
-    "node": ">=22.17.1 <23",
-    "pnpm": ">=10 <11"
-  },
-  "scripts": {
-    "build": "rimraf ./lib && rimraf ./build && pnpm build:icons && pnpm build:react && pnpm build:babel",
-    "build:icons": "svgo -f src/icons -o lib",
-    "build:react": "svgr --ext jsx --replace-attr-values \"#0E0B20=currentColor\" --replace-attr-values \"#161919=currentColor\" -d build ./src/icons",
-    "build:babel": "babel build --out-dir lib",
-    "prepublish": "pnpm build"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.25.6",
-    "@babel/preset-env": "^7.25.4",
-    "@babel/preset-react": "^7.24.7",
-    "@svgr/cli": "^6.3.1",
-    "rimraf": "^3.0.2",
-    "svgo": "^3.0.4"
-  },
-  "peerDependencies": {
-    "react": "^17.0.0 || ^18.0.0"
-  }
+	"name": "@honehealth/icons",
+	"version": "2.3.0",
+	"author": "Hone Health <info@honehealth.com>",
+	"main": "lib/index.js",
+	"types": "types.d.ts",
+	"files": [
+		"lib/*",
+		"types.d.ts"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:honehealth/icons.git"
+	},
+	"packageManager": "pnpm@10.15.0+sha512.486ebc259d3e999a4e8691ce03b5cac4a71cbeca39372a9b762cb500cfdf0873e2cb16abe3d951b1ee2cf012503f027b98b6584e4df22524e0c7450d9ec7aa7b",
+	"engines": {
+		"node": ">=22.17.1 <23",
+		"pnpm": ">=10 <11"
+	},
+	"scripts": {
+		"build": "rimraf ./lib && rimraf ./build && pnpm build:icons && pnpm build:react && pnpm build:babel",
+		"build:icons": "svgo -f src/icons -o lib",
+		"build:react": "svgr --ext jsx --replace-attr-values \"#0E0B20=currentColor\" --replace-attr-values \"#161919=currentColor\" --replace-attr-values \"#202020=currentColor\" -d build ./src/icons",
+		"build:babel": "babel build --out-dir lib",
+		"prepublish": "pnpm build"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.25.6",
+		"@babel/preset-env": "^7.25.4",
+		"@babel/preset-react": "^7.24.7",
+		"@svgr/cli": "^6.3.1",
+		"rimraf": "^3.0.2",
+		"svgo": "^3.0.4"
+	},
+	"peerDependencies": {
+		"react": "^17.0.0 || ^18.0.0"
+	}
 }
