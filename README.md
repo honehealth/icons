@@ -8,7 +8,7 @@ This package contains the SVG icons used across Hone Health's applications. The 
 
 - Add all new icons as SVG files in the `src/icons` directory.
 - Ensure SVG files:
-  - Use `fill="#0E0B20"` or `fill="#161919"` for paths or shapes requiring customizable colors. These values will be replaced with `currentColor` during the build process for dynamic color support.
+  - Use `fill="#0E0B20"` or `fill="#161919"` or `fill="#202020"` for paths or shapes requiring customizable colors. These values will be replaced with `currentColor` during the build process for dynamic color support.
   - Avoid hardcoding other `fill` values unless necessary.
   - Are optimized for size and performance (e.g., no unnecessary metadata or attributes).
 
