@@ -1,7 +1,7 @@
-module.exports = {
+export default {
   plugins: [
     {
-      name: 'preset-default',
+      name: "preset-default",
       params: {
         overrides: {
           removeViewBox: false,
@@ -11,20 +11,20 @@ module.exports = {
         },
       },
     },
-    'removeDimensions',
-    'removeDoctype',
-    'removeComments',
-    'removeMetadata',
-    'removeDesc',
-    'removeUnusedNS',
-    'removeEmptyContainers',
-    'removeEmptyAttrs',
-    'removeEmptyText',
-    'removeHiddenElems',
-    'removeUselessStrokeAndFill',
-    'removeUnknownsAndDefaults',
-    'removeUselessDefs',
-    'removeRasterImages',
-    'removeEditorsNSData',
+    "removeDimensions",
+    "removeDoctype",
+    "removeComments",
+    "removeMetadata",
+    "removeDesc",
+    "removeUnusedNS",
+    "removeEmptyContainers",
+    "removeEmptyAttrs",
+    "removeEmptyText",
+    "removeHiddenElems",
+    "removeUselessStrokeAndFill",
+    "removeUnknownsAndDefaults",
+    "removeUselessDefs",
+    "removeRasterImages",
+    "removeEditorsNSData",
   ],
 };
